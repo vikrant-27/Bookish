@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 
 
 function Navbar() {
@@ -31,10 +32,10 @@ return()=>{
         <a href="/">Home</a>
       </li>
       <li>
-        <a href="/course">Course</a>
+        <a href="/read">Read</a>
       </li>
       <li>
-        <a>Contact</a>
+        <a href='/author'>Author</a>
       </li>
       <li>
         <a>About</a>
@@ -110,7 +111,7 @@ return()=>{
 </div>
 
  <div className='pl-2'>
-    <a className="btn border-orange-400 ">Login</a> </div>
+ <Link to="/login" className="btn border-orange-400">Login</Link> </div>
   </div>
 </div>
 </div>

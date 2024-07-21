@@ -3,13 +3,18 @@ import Navbar from '../Components/Navbar'
 import Banner from '../Components/Banner'
 import Footer from '../Components/Footer'
 import Bookreader from '../Components/Bookreader'
+import Favbanner from '../Components/Favbanner'
+import Stats from '../Components/Stats'
+import Testimonial from '../Components/Testimonial'
 
 function Home() {
   return (
     <>
     <Navbar/>
     <Banner/>
-    <Bookreader/>
+    <Favbanner/>
+    <Stats/>
+    <Testimonial/>   
     <Footer/>
     
     </>
