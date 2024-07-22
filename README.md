@@ -1,5 +1,8 @@
 
-# Bookish
+# Bookish 
+
+## Recommended: Use Light mode (system). I'll be adding that feature soon. 
+
 
 I mainly focused on the front-end part only. I could have added login authentication and more filter options but ran short on time. Additionally, I can do even better but require more time.
 
