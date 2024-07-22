@@ -1,5 +1,6 @@
 import React from 'react'
 import banner from '../images/banner.png'
+import { Link } from 'react-router-dom'
 
 function Banner() {
   return (
@@ -30,7 +31,9 @@ function Banner() {
             </label>
           </div>
           <div className='text-center'>
+          <Link to={"/signup"}>
           <button className="btn mt-10 shadow-lg border-orange-400 bg-transparent text-black  hover:bg-orange-500">Get Started</button>
+          </Link>
           </div>
        </div>
 

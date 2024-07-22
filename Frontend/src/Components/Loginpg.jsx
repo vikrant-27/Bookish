@@ -2,13 +2,15 @@ import React from 'react'
 import loginimg from '../images/loginimg.png'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import { Link } from 'react-router-dom'
 
 export default function Loginpg() {
   return (
     <>
 <Navbar/>
-    <div className=' flex justify-center items-center h-screen '>
-    <div className="card bg-base-100 w-96 shadow-xl">
+
+    <div className=' md:mt-32 flex justify-center items-center  '>
+    <div className="card bg-base-100 w-96 shadow-xl mt-2">
   <figure className="px-10 pt-10">
     <img
       src={loginimg}
@@ -16,7 +18,7 @@ export default function Loginpg() {
       className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">welcome!</h2>
+    <h2 className="card-title">Login Here!</h2>
     <p>Lorem ipsum dolor sit amet.</p>
 {/* input section */}
     <div>
@@ -64,12 +66,16 @@ export default function Loginpg() {
 
 
 
-    <div className="card-actions my-9">
-      <button className="btn  shadow-lg   text-black bg-orange-400 hover:bg-orange-500 hover:border-orange-300">Login</button>
+    <div className="card-actions my-2">
+      <Link to={"/"}>
+      <button className="btn  shadow-lg text-black bg-orange-400 hover:bg-orange-500 hover:border-orange-300">Login</button></Link>
     </div>
+    <p>new user?! 
+      <Link to={'/signup'}> <span className='text-blue-400 cursor-pointer'>Signup</span></Link></p>
   </div>
 </div>
     </div>
+    
     <Footer/>
     
     </>

@@ -19,6 +19,7 @@ function App() {
         <Route path='/login' element={<Loginpg/>}/>
         <Route path='/read' element={<Read/>}/>
         <Route path='/author' element={<Authorpg/>}/>
+        <Route path='/signup' element={<Signup/>}/>
         
       </Routes>
     </>

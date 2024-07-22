@@ -48,11 +48,13 @@ function Catbook() {
 
   return (
     <>
-    <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
+    <div className=" max-w-screen-2xl container mx-auto  px-10">
       <div>
         <h1 className="font-semibold text-xl pb-2">Best Sellers!</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Top selling books below 
+          <br />
+          filtered on basis of top selling
           Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
           corporis nulla non suscipit, iure neque earum?
         </p>
