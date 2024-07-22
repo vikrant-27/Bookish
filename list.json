@@ -1,0 +1,82 @@
+[
+    {
+        "id":1,
+        "name":"One Piece",
+        "price":0,
+        "title":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quidem.",
+        "category":"best",
+        "image":"https://m.media-amazon.com/images/I/91CN0HstfNL._SY466_.jpg"
+    },
+    {
+        "id":2,
+        "name":"Naruto",
+        "price":0,
+        "title":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quidem.",
+        "category":"best",
+        "image":"https://m.media-amazon.com/images/I/91RpwagB7uL._SY466_.jpg"
+    },
+    {
+        "id":3,
+        "name":"Black Clover",
+        "price":0,
+        "title":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quidem.",
+        "category":"best",
+        "image":"https://m.media-amazon.com/images/I/61j7niGu2DL._SY445_SX342_.jpg"
+    },
+    {
+        "id":4,
+        "name":"your book",
+        "price":0,
+        "title":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quidem.",
+        "category":"best",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721246215~exp=1721249815~hmac=45d562dec7ba083f145a63e6b4771e16d9470ee44f85d8067e1ea5c21d46e1eb&w=740"
+    },
+    {
+        "id":5,
+        "name":"songbook",
+        "price":90,
+        "title":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quidem.",
+        "category":"best",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721246215~exp=1721249815~hmac=45d562dec7ba083f145a63e6b4771e16d9470ee44f85d8067e1ea5c21d46e1eb&w=740"
+    },
+    {
+        "id":6,
+        "name":"Story book",
+        "price":0,
+        "title":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quidem.",
+        "category":"best",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721246215~exp=1721249815~hmac=45d562dec7ba083f145a63e6b4771e16d9470ee44f85d8067e1ea5c21d46e1eb&w=740"
+    },
+    {
+        "id":7,
+        "name":"Story book",
+        "price":0,
+        "title":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quidem.",
+        "category":"Story",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721246215~exp=1721249815~hmac=45d562dec7ba083f145a63e6b4771e16d9470ee44f85d8067e1ea5c21d46e1eb&w=740"
+    },
+    {
+        "id":8,
+        "name":"Sports book",
+        "price":50,
+        "title":"SLorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quidem.",
+        "category":"Sports",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721246215~exp=1721249815~hmac=45d562dec7ba083f145a63e6b4771e16d9470ee44f85d8067e1ea5c21d46e1eb&w=740"
+    },
+    {
+        "id":9,
+        "name":"comedy book",
+        "price":60,
+        "title":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quidem.",
+        "category":"entertainment",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721246215~exp=1721249815~hmac=45d562dec7ba083f145a63e6b4771e16d9470ee44f85d8067e1ea5c21d46e1eb&w=740"
+    },
+    {
+        "id":10,
+        "name":"Story book",
+        "price":0,
+        "title":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quidem.",
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721246215~exp=1721249815~hmac=45d562dec7ba083f145a63e6b4771e16d9470ee44f85d8067e1ea5c21d46e1eb&w=740"
+    }
+]
