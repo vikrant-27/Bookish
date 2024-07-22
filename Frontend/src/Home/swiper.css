@@ -14,21 +14,21 @@
 }
 
 .swipercard-container .swiper-slide:nth-child(1n) {
-  background-image: url('src/images/book1.png');
+  background-image: url('../images/book1.png');
 }
 
 .swipercard-container .swiper-slide:nth-child(2n) {
-  background-image: url('src/images/book2.png');
+  background-image: url('../images/book2.png');
 }
 
 .swipercard-container .swiper-slide:nth-child(3n) {
-  background-image: url('src/images/book3.png');
+  background-image: url('../images/book3.png');
 }
 
 .swipercard-container .swiper-slide:nth-child(4n) {
-  background-image: url('src/images/book4.png');
+  background-image: url('../images/book4.png');
 }
 
 .swipercard-container .swiper-slide:nth-child(5n) {
-  background-image: url('src/images/book5.png');
+  background-image: url('../images/book5.png');
 }
