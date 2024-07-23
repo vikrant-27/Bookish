@@ -67,11 +67,11 @@ export default function Loginpg() {
 
 
     <div className="card-actions my-2">
-      <Link to={"/"}>
+      <Link to={"/Bookish/"}>
       <button className="btn  shadow-lg text-black bg-orange-400 hover:bg-orange-500 hover:border-orange-300">Login</button></Link>
     </div>
     <p>new user?! 
-      <Link to={'/signup'}> <span className='text-blue-400 cursor-pointer'>Signup</span></Link></p>
+      <Link to={'Bookish/signup'}> <span className='text-blue-400 cursor-pointer'>Signup</span></Link></p>
   </div>
 </div>
     </div>

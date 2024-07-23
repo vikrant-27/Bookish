@@ -31,7 +31,7 @@ function Banner() {
             </label>
           </div>
           <div className='text-center'>
-          <Link to={"/signup"}>
+          <Link to={"Bookish/signup"}>
           <button className="btn mt-10 shadow-lg border-orange-400 bg-transparent text-black  hover:bg-orange-500">Get Started</button>
           </Link>
           </div>

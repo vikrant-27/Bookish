@@ -29,13 +29,13 @@ return()=>{
   const navItems = (
     <>
       <li>
-        <a href="/">Home</a>
+        <a href="/Bookish/">Home</a>
       </li>
       <li>
-        <a href="/read">Read</a>
+        <a href="Bookish/read">Read</a>
       </li>
       <li>
-        <a href='/author'>Author</a>
+        <a href='Bookish/author'>Author</a>
       </li>
       <li>
         <a>About</a>
@@ -111,7 +111,7 @@ return()=>{
 </div>
 
  <div className='pl-2'>
- <Link to="/login" className="btn border-orange-400">Login</Link> </div>
+ <Link to="Bookish/login" className="btn border-orange-400">Login</Link> </div>
   </div>
 </div>
 </div>

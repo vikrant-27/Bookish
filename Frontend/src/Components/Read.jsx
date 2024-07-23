@@ -33,7 +33,7 @@ function Read() {
               consequatur!
             </p>
 
-            <Link to="/">
+            <Link to="/Bookish/">
               <button className="mt-6 btn shadow-lg border-orange-400 bg-transparent text-black hover:bg-orange-500 duration-300">
                 Back
               </button>
