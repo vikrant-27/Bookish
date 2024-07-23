@@ -4,9 +4,6 @@
 ## Recommended: Use Light mode (system) for time being. I'll be adding theme feature soon. 
 
 
-I mainly focused on the front-end part only. I could have added login authentication and more filter options but ran short on time. Additionally, I can do even better but require more time.
-
-
 
 
 ## Demo
