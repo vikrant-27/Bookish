@@ -32,10 +32,10 @@ return()=>{
         <a href="/Bookish/">Home</a>
       </li>
       <li>
-        <a href="Bookish/read">Read</a>
+        <a href="/read">Read</a>
       </li>
       <li>
-        <a href='Bookish/author'>Author</a>
+        <a href='/author'>Author</a>
       </li>
       <li>
         <a>About</a>
@@ -111,7 +111,7 @@ return()=>{
 </div>
 
  <div className='pl-2'>
- <Link to="Bookish/login" className="btn border-orange-400">Login</Link> </div>
+ <Link to="/login" className="btn border-orange-400">Login</Link> </div>
   </div>
 </div>
 </div>
