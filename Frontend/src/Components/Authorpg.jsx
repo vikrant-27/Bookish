@@ -212,6 +212,12 @@ function Authorpg() {
                                         <span className="badge bg-orange-400 badge-info">Verified</span>
                                     </label>
                                     <br />
+
+                                    <label className="input input-bordered flex items-center gap-2">
+                                        Book cover:
+                                        <input type="file" className="grow" placeholder=" Name of the author" />                                        
+                                    </label>
+                                    <br />
                                 </div>
                             </div>
                             <div className=" md:pl-8 md:pr-8">
