@@ -1,5 +1,4 @@
 import React from 'react';
-import banner from '../images/banner.png';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Swipercard from '../Home/Swipercard';
