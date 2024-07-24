@@ -16,8 +16,8 @@ function App() {
         <Route path="/Bookish/" element={<Home/>}/>
         <Route path="/signup" element={<Signup/>}/>
         <Route path='/login' element={<Loginpg/>}/>
-        <Route path='/read' element={<Read/>}/>
-        <Route path='/author' element={<Authorpg/>}/>
+        <Route path='/Bookish/read' element={<Read/>}/>
+        <Route path='/Bookish/author' element={<Authorpg/>}/>
         
         
       </Routes>

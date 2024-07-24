@@ -32,10 +32,10 @@ return()=>{
         <a href="/Bookish/">Home</a>
       </li>
       <li>
-        <a href='/read'>Read</a>
+        <a href='/Bookish/read'>Read</a>
       </li>
       <li>
-        <a href='/author'>Author</a>
+        <a href='/Bookish/author'>Author</a>
       </li>
       <li>
         <a>About</a>
