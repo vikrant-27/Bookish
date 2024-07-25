@@ -13,7 +13,7 @@ export default function Loginpg() {
   <figure className="px-10 pt-10">
     <img
       src={loginimg}
-      alt="Shoes"
+      alt="image"
       className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
