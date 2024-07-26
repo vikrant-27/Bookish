@@ -3,8 +3,13 @@ import loginimg from '../images/loginimg.png'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
+import hideeye from '../images/hide.png'
+import showeye from '../images/showeye.png'
+import { useState } from 'react'
 
 export default function Loginpg() {
+  let[pass,setPass]=useState(false)   //for hide and show password
+  
   return (
     <>
 <Navbar/>
@@ -57,8 +62,8 @@ export default function Loginpg() {
       fillRule="evenodd"
       d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 0 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
       clipRule="evenodd" />
-  </svg>
-  <input type="password" className="grow" placeholder="password" />
+  </svg>  
+  <input type={(pass)?'text':'password'} className="grow" placeholder="password" /><img onClick={()=>setPass(!pass)} className='h-5 cursor-pointer hover:scale-105' src={(pass)?hideeye:showeye}/>
 </label>
 <br />
 <label className="input input-bordered flex items-center gap-2">
@@ -72,7 +77,7 @@ export default function Loginpg() {
       d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 0 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
       clipRule="evenodd" />
   </svg>
-  <input type="password" className="grow" placeholder="confirm password" />
+  <input type="password" className="grow" placeholder="password" />
 </label>
 
     </div>
