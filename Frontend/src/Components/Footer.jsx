@@ -3,8 +3,9 @@ import React from 'react'
 function Footer() {
   return (
     <>
-    <hr />
     <div className=' container mx-auto md:px-10 mt-20 mb-2 px-4'>
+      <hr />
+      <br />
     <footer className="footer bg-base-200 text-base-content p-10">
   <aside>
     <svg
