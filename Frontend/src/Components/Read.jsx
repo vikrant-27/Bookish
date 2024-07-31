@@ -5,6 +5,7 @@ import Swipercard from '../Home/Swipercard';
 import { Link } from "react-router-dom";
 import list from '../../public/list.json';
 import Catbook from './Catbook';
+import axios from 'axios'
 
 function Read() {
   console.log(list);
